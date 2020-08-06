@@ -1,6 +1,6 @@
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
-var User = require('../models/user');
+var User = require('../models/users');
 
 // Passport is a Node module that simplifies the process of handling authentication in Express.
 // It provides a common gateway to work with many different authentication “strategies”,
